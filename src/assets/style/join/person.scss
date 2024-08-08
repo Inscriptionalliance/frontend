@@ -1,0 +1,954 @@
+@font-face {
+  font-family: "CKTKingkong";
+  src: url("../../font/CKTKingkong.ttf");
+}
+
+.j_person > div {
+  width: 100%;
+  // max-width: 1920px;
+
+  display: flex;
+  padding-top: 6.8333rem;
+  justify-content: center;
+  font-family: "CKTKingkong";
+  user-select: none;
+  > div {
+    height: fit-content;
+  }
+  @media (max-width: 650px) {
+    padding: 0px 12px;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  @media (max-width: 375px) {
+    padding: 0px 12px;
+  }
+
+  .le {
+    display: flex;
+    width: 41.1667rem;
+    margin-right: 5.8333rem;
+    flex-direction: column;
+
+    .svip {
+      width: 100%;
+      height: 24.8333rem;
+      // background: url("https://inscriptionalliance.com/download/inscription/image/web/VipImg.gif");
+      background: url("../../image/join/VipImg.gif");
+      background-position: center;
+      background-size: 100% 110%;
+
+      @media (max-width: 430px) {
+        // aspect-ratio: 251 / 153;
+        // height: auto;
+        height: 47rem;
+      }
+    }
+    .isNodeVip {
+      width: 100%;
+      height: 24.8333rem;
+      // background: url("https://inscriptionalliance.com/download/inscription/image/web/isNodeVip.gif");
+      background: url("../../image/join/isNodeVip.gif");
+      background-position: center;
+      background-size: 100% 110%;
+
+      @media (max-width: 430px) {
+        // aspect-ratio: 251 / 153;
+        // height: auto;
+        height: 47rem;
+      }
+    }
+    .isAdvancedVip {
+      width: 100%;
+      height: 24.8333rem;
+      // background: url("https://inscriptionalliance.com/download/inscription/image/web/isAdvancedVip.gif");
+      background: url("../../image/join/isAdvancedVip.gif");
+      background-position: center;
+      background-size: 100% 110%;
+
+      @media (max-width: 430px) {
+        // aspect-ratio: 251 / 153;
+        // height: auto;
+        height: 47rem;
+      }
+    }
+    .isStandardVip {
+      width: 100%;
+      height: 24.8333rem;
+      // background: url("https://inscriptionalliance.com/download/inscription/image/web/isAdvancedVip.gif");
+      background: url("../../image/join/isStandardVip.gif");
+      background-position: center;
+      background-size: 100% 110%;
+
+      @media (max-width: 430px) {
+        // aspect-ratio: 251 / 153;
+        // height: auto;
+        height: 47rem;
+      }
+    }
+
+    .vip {
+      width: 100%;
+      height: 24.8333rem;
+      background: url("../../image/join/vip.png");
+      background-size: 100% 100%;
+
+      @media (max-width: 430px) {
+        // aspect-ratio: 251 / 153;
+        // height: auto;
+        height: 47rem;
+      }
+    }
+
+    @media (max-width: 650px) {
+      width: 100%;
+      max-width: 90rem;
+      margin-right: 0;
+      margin-bottom: 4rem;
+      .svip,
+      .vip {
+        height: 47rem;
+      }
+    }
+
+    @media (max-width: 430px) {
+      // width: 90%;
+    }
+
+    > div:nth-child(2) {
+      margin-top: 0.5rem;
+      margin-bottom: 1.8333rem;
+      color: #fff;
+      font-size: 2rem;
+      line-height: 2rem;
+      cursor: pointer;
+      align-self: flex-end;
+
+      @media (max-width: 430px) {
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+      }
+    }
+
+    > div:nth-child(3) {
+      width: 100%;
+      height: 68.9167rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: url("../../image/Mint/Vector.png");
+      background-size: 100% 100%;
+
+      @media (max-width: 650px) {
+        // aspect-ratio: 494 / 827;
+        height: fit-content;
+        max-height: 580px;
+      }
+
+      > img {
+        margin-top: 8.1667rem;
+        margin-bottom: 3.4167rem;
+        width: 23.3333rem;
+        height: 6.6667rem;
+        flex-shrink: 0;
+
+        @media (max-width: 650px) {
+          width: 57.647%;
+          aspect-ratio: 282 / 71;
+          height: auto;
+          margin-top: 12rem;
+        }
+      }
+
+      > div:nth-child(2) {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        color: #fff;
+        font-family: "CKTKingkong";
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+
+        @media (max-width: 650px) {
+          font-size: 3rem;
+          line-height: 3rem;
+          margin-bottom: 3rem;
+        }
+
+        > img {
+          width: 2.5rem;
+          height: 2.5rem;
+          cursor: pointer;
+
+          @media (max-width: 650px) {
+            width: 4rem;
+            height: 4rem;
+          }
+        }
+      }
+
+      > div:nth-child(3) {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+
+        @media (max-width: 650px) {
+          margin-bottom: 3rem;
+        }
+
+        > div:nth-child(1) {
+          color: #fff;
+          font-family: "CKTKingkong";
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 1.5rem;
+
+          @media (max-width: 650px) {
+            font-size: 3rem;
+            line-height: 3rem;
+          }
+        }
+      }
+
+      > div:nth-child(4) {
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 2.5rem;
+        > span {
+          font-size: 1.5rem;
+
+          color: #95fa31;
+        }
+
+        @media (max-width: 650px) {
+          font-size: 3rem;
+          line-height: 3rem;
+          margin-bottom: 3rem;
+          > span {
+            font-size: 3rem;
+
+            color: #95fa31;
+          }
+        }
+      }
+
+      > div:nth-child(5) {
+        > img:nth-child(2) {
+          width: 3.3333rem;
+          height: 3.3333rem;
+          cursor: pointer;
+
+          @media (max-width: 650px) {
+            width: 5rem;
+            aspect-ratio: 1 / 1;
+            height: auto;
+          }
+        }
+      }
+
+      > div:nth-child(5),
+      :nth-child(6) {
+        margin-bottom: 2.5rem;
+
+        @media (max-width: 650px) {
+          margin-bottom: 5rem;
+        }
+      }
+
+      > div:nth-child(5),
+      :nth-child(6),
+      :nth-child(7) {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 28.3333rem;
+        height: 5rem;
+        flex-shrink: 0;
+        background: url("../../image/Mint/border.png");
+        background-size: 100% 100%;
+        color: #fff;
+        font-family: "CKTKingkong";
+        font-size: 1.6667rem;
+        font-weight: 400;
+        line-height: normal;
+
+        @media (max-width: 650px) {
+          width: 68.8235%;
+          aspect-ratio: 17 / 3;
+          height: auto;
+          font-size: 2.5rem;
+        }
+
+        > img {
+          width: 4.6667rem;
+          height: 4.6667rem;
+
+          @media (max-width: 650px) {
+            width: 13.6572%;
+            aspect-ratio: 1 / 1;
+            height: auto;
+          }
+        }
+      }
+
+      > div:nth-child(8) {
+        margin-top: 4rem;
+        color: #fff;
+        font-family: "CKTKingkong";
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3rem;
+
+        @media (max-width: 650px) {
+          font-size: 4.5rem;
+          line-height: 4.5rem;
+          margin-top: 8rem;
+        }
+      }
+
+      > div:nth-child(9) {
+        color: rgba(255, 255, 255, 0.8);
+        margin: 3.1667rem 0px 12rem;
+        font-family: "CKTKingkong";
+        font-size: 1.6667rem;
+        font-weight: 400;
+        line-height: 1.6667rem;
+
+        @media (max-width: 650px) {
+          font-size: 3rem;
+          line-height: 3rem;
+        }
+      }
+    }
+  }
+
+  .ri {
+    display: flex;
+    width: 100%;
+    max-width: 90rem;
+    flex-direction: column;
+
+    @media (max-width: 430px) {
+      width: 100%;
+      // padding: 0 4rem;
+    }
+
+    @media (max-width: 375px) {
+      width: 100%;
+      // padding: 0 4rem;
+    }
+
+    @media (max-width: 320px) {
+      width: 100%;
+      // padding: 0 2.5rem;
+    }
+
+    > div:nth-child(1) {
+      margin-bottom: 4.1667rem;
+
+      > span {
+        color: #808080;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        cursor: pointer;
+        line-height: 2.5rem;
+
+        @media (max-width: 768px) {
+          font-size: 4rem;
+          line-height: 4rem;
+        }
+      }
+
+      > span {
+        margin-right: 5.6667rem;
+        white-space: nowrap;
+        @media (max-width: 430px) {
+          margin-right: 30px;
+        }
+      }
+
+      .active {
+        color: white !important;
+      }
+    }
+
+    .team {
+      > div:nth-child(1) {
+        > div:nth-child(2) {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 1.6667rem;
+          line-height: 1.6667rem;
+
+          @media (max-width: 430px) {
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+          }
+        }
+      }
+
+      .zwsj {
+        color: #fff;
+        text-align: center;
+        font-size: 3.3333rem;
+        line-height: 3.3333rem;
+
+        > img {
+          width: 20.8333rem;
+          height: 20.8333rem;
+
+          @media (max-width: 430px) {
+            width: 25.8333rem;
+            height: 25.8333rem;
+          }
+        }
+
+        > div:nth-child(2) {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 1.6667rem;
+          line-height: 1.6667rem;
+
+          @media (max-width: 430px) {
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+          }
+        }
+      }
+
+      > div:nth-child(2),
+      > div:nth-child(3) {
+        margin-top: 3.3333rem;
+
+        @media (max-width: 430px) {
+          margin-top: 4rem !important;
+        }
+
+        > div:nth-child(1) {
+          display: flex;
+          margin-bottom: 0.25rem;
+          align-items: center;
+          justify-content: space-between;
+
+          > div {
+            margin-bottom: 0 !important;
+          }
+
+          > img {
+            cursor: pointer;
+            width: 5rem;
+            height: 5rem;
+          }
+        }
+
+        > div:nth-child(2) {
+          max-height: 20.8333rem;
+          overflow-y: auto;
+          overflow-x: hidden;
+          @media (max-width: 430px) {
+            max-height: 26.8333rem;
+          }
+        }
+
+        > .nodata {
+          max-height: 100% !important;
+          overflow: hidden !important;
+        }
+      }
+
+      > div:nth-child(3) {
+        margin-top: 2.6667rem;
+      }
+
+      > div:nth-child(4) {
+        margin-top: 3.3333rem;
+
+        @media (max-width: 430px) {
+          margin-top: 4rem;
+        }
+
+        .table {
+          min-width: 83rem;
+          display: flex;
+          flex-direction: column;
+          height: 24.25rem;
+          border-radius: 3.3333rem;
+          background: linear-gradient(95deg, #1b1b1b 0%, #333 100%);
+          box-shadow: 0.8333rem 0.8333rem 1.6667rem 0rem #000,
+            -0.8333rem -0.8333rem 1.6667rem 0rem rgba(255, 255, 255, 0.2);
+          backdrop-filter: blur(2.375rem);
+
+          @media (max-width: 430px) {
+            height: 58.3333rem;
+            min-width: 100%;
+          }
+
+          .thead {
+            display: flex;
+            padding: 2.5rem 3.3333rem;
+
+            div {
+              flex: 1;
+              color: #fff;
+              font-size: 1.5rem;
+              line-height: 1.5rem;
+
+              @media (max-width: 430px) {
+                font-size: 2.9rem;
+                line-height: 2.9rem;
+              }
+            }
+
+            > div:nth-child(2) {
+              text-align: center;
+            }
+
+            > div:nth-child(3) {
+              text-align: right;
+            }
+          }
+
+          .t_color {
+            height: 1px;
+            opacity: 0.6;
+            background: linear-gradient(
+              90deg,
+              rgba(149, 250, 49, 0) 1.07%,
+              #95fa31 53.32%,
+              rgba(149, 250, 49, 0) 100.4%
+            );
+          }
+
+          .td_box {
+            flex: 1;
+            margin-bottom: 1.8333rem;
+            overflow: auto;
+
+            @media (max-width: 430px) {
+              margin-bottom: 4rem;
+            }
+
+            .td {
+              display: flex;
+              padding: 1.6667rem 3.3333rem;
+              border-bottom: 0.0833rem solid rgba(255, 255, 255, 0.1);
+
+              @media (max-width: 430px) {
+                padding: 2.4rem 3.3333rem;
+              }
+
+              > div {
+                flex: 1;
+                flex-shrink: 0;
+                color: rgba(255, 255, 255, 0.8);
+                font-size: 1.3333rem;
+                line-height: 1.6667rem;
+
+                @media (max-width: 430px) {
+                  font-size: 2.5rem;
+                  line-height: 3.75rem;
+                }
+
+                @media (max-width: 375px) {
+                  font-size: 2.4rem;
+                  line-height: 3.75rem;
+                }
+
+                @media (max-width: 320px) {
+                  font-size: 2.1rem;
+                  line-height: 3.75rem;
+                }
+              }
+
+              > div:nth-child(2) {
+                text-align: center;
+              }
+
+              > div:nth-child(3) {
+                text-align: right;
+              }
+            }
+
+            > .zwsj {
+              height: 100%;
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+
+    .task {
+      display: flex;
+      flex-direction: column;
+
+      > div:nth-child(1) {
+        margin-bottom: 4rem;
+
+        > div:nth-child(2) {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 1.6667rem;
+          line-height: 1.6667rem;
+
+          @media (max-width: 430px) {
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+          }
+        }
+        @media (max-width: 650px) {
+          margin-bottom: 4rem;
+        }
+      }
+
+      > div:nth-child(2) {
+        width: 100%;
+      }
+
+      // >div:nth-child(3) {
+      //     margin-top: 3.3333rem;
+
+      //     >div:nth-child(1) {
+      //         display: flex;
+      //         align-items: flex-end;
+      //         margin-bottom: 1.6667rem;
+
+      //         >div:nth-child(1) {
+      //             margin-bottom: 0 !important;
+      //         }
+
+      //         >div:nth-child(2) {
+      //             color: #FFF;
+      //             font-size: 1.6667rem;
+      //             margin-left: 1.3333rem;
+      //             line-height: 1.6667rem;
+      //         }
+      //     }
+
+      //     .teamTask:not(:last-child) {
+      //         margin-bottom: 1.3333rem;
+      //     }
+
+      //     .teamTask {
+      //         width: 100%;
+      //         height: 5.8333rem;
+      //         flex-shrink: 0;
+      //         border-radius: 4.5833rem;
+      //         background: rgba(255, 255, 255, 0.10);
+      //         box-shadow: -0.25rem -0.25rem .4167rem 0rem rgba(255, 255, 255, 0.20) inset, .4167rem .4167rem .8333rem 0rem #000 inset;
+      //         backdrop-filter: blur(2.375rem);
+      //         display: flex;
+      //         justify-content: space-around;
+      //         align-items: center;
+
+      //         >div:nth-child(1) {
+      //             color: rgba(255, 255, 255, 0.60);
+      //             font-size: 1.5rem;
+      //             line-height: 1.5rem;
+      //         }
+
+      //         >div:nth-child(2) {
+      //             color: rgba(255, 255, 255, 0.80);
+      //             text-align: right;
+      //             font-size: 1.5rem;
+      //             line-height: 1.5rem;
+      //         }
+
+      //         >.p_invite {
+      //             display: flex;
+      //             padding: 1rem 3.8333rem;
+      //             justify-content: center;
+      //             align-items: center;
+      //             gap: .8333rem;
+      //             border-radius: 1.1667rem;
+      //             background: linear-gradient(0deg, #95FA31 0.01%, #F6F022 99.99%);
+      //             box-shadow: .3333rem .6667rem 0rem 0rem #4A8E00;
+      //             color: #000;
+      //             font-size: 1.3333rem;
+      //             line-height: 1.3333rem;
+      //         }
+
+      //         >.successTeam {
+      //             width: 5rem;
+      //             height: 5rem;
+      //             background: url("../../image/join/right.png") !important;
+      //             background-size: 100% 100% !important;
+      //         }
+      //     }
+      // }
+
+      > div:nth-child(3) {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+
+        > div:nth-child(1) {
+          display: flex;
+          align-items: flex-end;
+          margin-bottom: 1.6667rem;
+
+          > div:nth-child(1) {
+            margin-bottom: 0 !important;
+          }
+
+          > div:nth-child(2) {
+            color: #fff;
+            font-size: 1.6667rem;
+            margin-left: 1.3333rem;
+            line-height: 1.6667rem;
+          }
+        }
+        @media (max-width: 650px) {
+          margin-top: 4rem;
+          margin-bottom: 4rem;
+        }
+      }
+    }
+
+    .jqqd {
+      width: 83rem;
+      color: #fff;
+      font-size: 3.3333rem;
+      line-height: 3.3333rem;
+    }
+  }
+
+  .title,
+  .title > span {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1.6667rem;
+
+    @media (max-width: 430px) {
+      // margin-bottom: 3.3333rem;
+      font-size: 3.3333rem;
+      line-height: 3.3333rem;
+      margin-bottom: 3.3333rem;
+    }
+  }
+  .title > span {
+    color: #95fa31;
+  }
+
+  .useCoderr {
+    width: 83rem;
+    display: flex;
+    padding: 1.0833rem 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4.5833rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: -0.25rem -0.25rem 0.4167rem 0rem rgba(255, 255, 255, 0.2) inset,
+      0.4167rem 0.4167rem 0.8333rem 0rem #000 inset;
+    backdrop-filter: blur(2.375rem);
+
+    @media (max-width: 430px) {
+      padding: 1.5rem 2.5rem;
+      width: 100%;
+    }
+
+    .codeNum {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+
+      @media (max-width: 430px) {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+      }
+    }
+
+    .p_btn {
+      display: flex;
+      padding: 1rem 3.8333rem;
+      justify-content: center;
+      align-items: center;
+      gap: 0.8333rem;
+      border-radius: 1.1667rem;
+      background: linear-gradient(0deg, #95fa31 0.01%, #f6f022 99.99%);
+      box-shadow: 0.3333rem 0.6667rem 0rem 0rem #4a8e00;
+      color: #000;
+      font-size: 1.3333rem;
+      line-height: 1.6667rem;
+
+      @media (max-width: 1024px) {
+        padding: 8px 3.8333rem;
+      }
+      @media (max-width: 430px) {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+      }
+    }
+  }
+
+  .useCoderr:not(:last-child) {
+    margin-bottom: 1.6667rem;
+  }
+
+  .uselessCode {
+    display: flex;
+    width: 100%;
+    height: 5.8333rem;
+    padding-left: 2.5rem;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.5833rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: -0.25rem -0.25rem 0.4167rem 0rem rgba(255, 255, 255, 0.2) inset,
+      0.4167rem 0.4167rem 0.8333rem 0rem #000 inset;
+    backdrop-filter: blur(2.375rem);
+
+    @media (max-width: 430px) {
+      padding: 0;
+      // padding-left: 2.5rem;
+      padding: 1.5rem 2.5rem;
+      min-height: 36px;
+    }
+
+    .codeNum {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+
+      @media (max-width: 430px) {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+      }
+    }
+  }
+
+  .uselessCode:not(:last-child) {
+    margin-bottom: 1.6667rem;
+  }
+
+  .taskBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 1.0833rem 2.5rem;
+    align-items: center;
+    border-radius: 4.5833rem;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: -0.25rem -0.25rem 0.4167rem 0rem rgba(255, 255, 255, 0.2) inset,
+      0.4167rem 0.4167rem 0.8333rem 0rem #000 inset;
+    backdrop-filter: blur(2.375rem);
+
+    @media (max-width: 650px) {
+      display: block;
+      padding: 3.8rem 2.5rem;
+    }
+
+    .taskinfo {
+      flex: 1;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      > img {
+        margin-left: 5px;
+        position: relative;
+      }
+
+      @media (max-width: 650px) {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        > img {
+          width: 18px;
+          height: 18px;
+        }
+      }
+
+      @media (max-width: 320px) {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+
+    > div:nth-child(2) {
+      color: rgba(255, 255, 255, 0.8);
+      text-align: right;
+      font-size: 1.5rem;
+      position: absolute;
+      left: 72.8632%;
+      line-height: 1.5rem;
+    }
+
+    .p_btn {
+      display: flex;
+      padding: 1rem 3.8333rem;
+      justify-content: center;
+      align-items: center;
+      gap: 0.8333rem;
+      border-radius: 1.1667rem;
+      background: linear-gradient(0deg, #95fa31 0.01%, #f6f022 99.99%);
+      box-shadow: 0.3333rem 0.6667rem 0rem 0rem #4a8e00;
+      color: #000;
+      font-size: 1.3333rem;
+      line-height: 1.6667rem;
+      cursor: pointer;
+
+      @media (max-width: 650px) {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+      }
+
+      @media (max-width: 320px) {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+
+    .qwc {
+      padding: 1rem 3.1667rem;
+      margin-right: 20px;
+      @media (max-width: 650px) {
+        margin-right: 0px;
+      }
+    }
+
+    .success {
+      width: 5rem;
+      height: 5rem;
+      background: url("../../image/join/right.png");
+      background-size: 100% 100%;
+    }
+  }
+
+  .successBox {
+    display: flex;
+    position: relative;
+    padding: 0.4167rem 5rem 0.4167rem 2.5rem !important;
+
+    @media (max-width: 650px) {
+      display: flex;
+      padding: 3.8rem 2.5rem !important;
+    }
+
+    > .success {
+      position: static !important;
+    }
+  }
+
+  .taskBox:not(:last-child) {
+    margin-bottom: 1.3333rem;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.3333rem;
+    right: 25.9992px;
+  }
+
+  /* -*/
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10.9992px;
+  }
+
+  /* -*/
+  ::-webkit-scrollbar-thumb {
+    background: #95fa31;
+    border-radius: 2.8333rem;
+  }
+}

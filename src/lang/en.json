@@ -1,0 +1,775 @@
+{
+  "1": "Exit",
+  "2": "Join",
+  "3": "community",
+  "4": "Ranking",
+  "5": "Market",
+  "6": "SWAP",
+  "7": "Pledge",
+  "8": "Lottery",
+  "9": "Activity",
+  "10": "Invite friends",
+  "11": "Total number of users",
+  "12": "Total circulation",
+  "13": "Bind BTC wallet address",
+  "14": "Enter address",
+  "15": "Connect wallet",
+  "16": "Enter the invitation code",
+  "17": "Connect Twitter",
+  "18": "Connect and join our Discord",
+  "19": "Verify initial reward",
+  "20": "Use wallet to Connect",
+  "21": "Select your favorite wallet to connect",
+  "22": "invitation code",
+  "23": "Accept invitation",
+  "24": "OfficialX",
+  "25": "Retweet official tweet",
+  "26": "Connect and join our Discord",
+  "27": "Already followed",
+  "28": "Follow",
+  "29": "Forwarded",
+  "30": "Forward",
+  "31": "Verify and claim rewards",
+  "32": "verification",
+  "33": "Welcome",
+  "34": "You will get",
+  "35": "Points",
+  "36": "{{num}} Mint coupons",
+  "37": "Welcome to join us!",
+  "38": "Enter",
+  "39": "Global Inscription Protocol Aggregation Platform",
+  "40": "Make the world's inscriptions more valuable.",
+  "41": "Global autonomous elite community",
+  "42": "Connect Now",
+  "43": "Everyone can participate,A recording revolution that changed the world ",
+  "44": "Time",
+  "45": "Address",
+  "46": "Reward",
+  "47": "View details",
+  "48": "Whitelist",
+  "49": "Mint Coupon",
+  "50": "Points",
+  "51": "No ranking yet",
+  "52": "Ranking of inscription holders",
+  "53": "Team",
+  "54": "Task",
+  "55": "Number of invitees",
+  "56": "You currently have {{num}} invitation links. Every time you successfully invite a team member,you will receive 200 points and 3 mint couponas reward.",
+  "57": "Available invitation links",
+  "58": "Invitation",
+  "59": "The number of invitations has been exhausted",
+  "60": "Expired invitation link",
+  "61": "Invitation Code",
+  "62": "No invalid links yet",
+  "63": "Invitation Record",
+  "64": "No data yet",
+  "65": "Not issued",
+  "66": "Issued",
+  "67": "Open soon",
+  "68": "No",
+  "69": "Address",
+  "70": "Percent",
+  "71": "Value",
+  "72": "Operation",
+  "73": "Num",
+  "74": "From",
+  "75": "To",
+  "76": "Time",
+  "77": "Get INSCRIPTION card",
+  "78": "Lottery",
+  "79": "Whitelist",
+  "80": "Mint Coupon",
+  "81": "Points",
+  "82": "Ranking of inscription holders",
+  "83": "My Inscription",
+  "84": "Ranking",
+  "85": "Transfer",
+  "86": "Market",
+  "87": "Total Supply",
+  "88": "Mint Amount",
+  "89": "Max Limit",
+  "90": "decimal",
+  "91": "Deployment Basis",
+  "92": "Deployment Time",
+  "93": "Holder",
+  "94": "Total Transaction Amount",
+  "95": "Mint",
+  "96": "Transfer Record",
+  "97": "Transfer",
+  "98": "rotate",
+  "99": "Inscription protocol free embedding",
+
+  "100": "Failed",
+  "101": "You have no more draws, please complete some tasks to get more chances.",
+  "102": "Do tasks",
+  "103": "The transfer quantity is greater than the quantity you own",
+  "104": "The transfer quantity cannot be less than 10",
+  "105": "Please fill in the address",
+  "106": "Close",
+  "107": "Transfer",
+  "108": "Your Address",
+  "109": "Chain : line",
+  "110": "Your Whitelist",
+  "111": "Your inscription : {{num}}",
+  "112": "Amount",
+  "113": "The minimum transfer quantity is 10",
+  "114": "All",
+  "115": "Address",
+  "116": "Address : for example OX...",
+  "117": "Transfer",
+  "118": "Points",
+  "119": "Receive",
+  "120": "Insufficient balance",
+  "121": "The purchase quantity must be greater than or equal to 1",
+  "122": "Purchase Successfully",
+  "123": "Purchase failed",
+  "124": "Please enter the quantity",
+  "125": "Purchase",
+  "126": "Price",
+  "127": "Total quantity",
+  "128": "Enter quantity",
+  "129": "Purchased quantity",
+  "130": "Max",
+  "131": "Purchase",
+  "132": "Purchasing rights",
+  "133": "1. Obtain qualifications for inscription casting before announcement",
+  "134": "2. The transaction fee for whitelist users to be listed on the trading market will be reduced by 20%",
+  "135": "3. Whitelist address users can enjoy other rights and interests according to the project",
+  "136": "Binding Successfully",
+  "137": "Focus on success",
+  "138": "Bind Twitter account",
+  "139": "Bound",
+  "140": "bind",
+  "141": "verification",
+  "142": "verification",
+  "143": "Repost success",
+  "144": "Reply Successfully",
+  "145": "Like successfully",
+  "146": "Whitelist",
+  "147": "Address",
+  "148": "My Tasks",
+  "149": "Complete the task and verify the success to obtain the reward corresponding to the task",
+  "150": "Your Tasks",
+  "151": "Tasks - Connect and verify initial rewards to receive additional points and engraving cards.",
+  "152": "Official Tasks",
+  "153": "Retweet X tweet from @{{name}}",
+  "154": "Get {{num}} points",
+  "155": "To complete",
+  "156": "verification",
+  "157": "Normal rotation",
+  "158": "Lottery",
+  "159": "Remaining times:",
+  "160": "times",
+  "161": "Reply @{{name}}'s X tweet",
+  "162": "Like @{{name}}'s X tweet",
+  "163": "Pinned Tasks",
+  "164": "bind",
+  "165": "Please bind Twitter first!",
+  "166": "Go to binding",
+  "167": "Skip",
+  "168": "Not supported yet~",
+  "169": "Transfer Successfully",
+  "170": "Whitelist",
+  "171": "Purchase Record",
+  "172": "Not open yet",
+  "173": "Record",
+  "174": "Time",
+  "175": "Num",
+  "176": "Amount",
+  "177": "Type",
+  "178": "Purchased",
+  "179": "Record",
+  "180": "Source",
+  "181": "Destination",
+  "182": "Transfer",
+  "183": "Transfer out",
+  "184": "Internal transfer record",
+  "185": "Waiting for the official Twitter notification",
+  "186": "--",
+  "187": "Normal",
+  "188": "Rare",
+  "189": "Epic",
+  "190": "Please enter quantity",
+  "191": "Registration reward: 500 points and 1000 mint coupons",
+  "192": "Follow on Twitter: 10 mint coupons",
+  "193": "Various tasks on Twitter: 300 points and 50 mint coupons",
+  "194": "The system is under maintenance",
+
+  "195": "LEADERBOARD",
+
+  "196": "Community",
+
+  "197": "Introduction",
+
+  "198": "Like",
+
+  "199": "Community",
+
+  "200": "Swap",
+
+  "201": "Balance",
+
+  "202": "Gas:",
+
+  "203": "Swap",
+
+  "204": "invitation",
+
+  "205": "invitation",
+
+  "206": "{{num}} minutes ago",
+
+  "207": "Inscription",
+
+  "208": "Points",
+
+  "209": "Rank",
+
+  "210": "user",
+
+  "211": "Inviter",
+
+  "212": "Inscriptions",
+
+  "213": "Points",
+
+  "214": "Community name",
+
+  "215": "{{num}} participants",
+
+  "216": "{{num}} likes",
+
+  "217": "Like",
+
+  "218": "Consumption",
+  "219": "User holds",
+  "220": "Mint Coupon",
+  "221": "Whitelist",
+  "222": "Rare Raffle Tickets",
+  "223": "Epic Lottery Ticket",
+  "224": "Like successfully",
+
+  "225": "Community Mission",
+
+  "226": "Like for 5 consecutive days ( number of days liked: {{value}} days )",
+
+  "227": "Ordinary prize pool: points, mint coupons, white list, epic lottery tickets.",
+  "228": "Rare prize pool: high-point reward.",
+  "229": "Epic prize pool: high-power points, high-power mint coupons, high-power white list.",
+
+  "230": "Get 500 points",
+  "231": "Get a rare card",
+  "232": "Community likes",
+  "233": "Instructions for the lottery",
+
+  "234": "Please enter a valid address.",
+  "235": "Transfer Successfully.",
+  "236": "Transfer failed.",
+  "237": "Withdrawal failed.",
+  "238": "Remaining Amount",
+  "239": "Enter Amount",
+
+  "240": "Summary",
+  "241": "You will pay fee",
+  "242": "You will receive",
+  "243": "Exchange",
+  "244": "Enter Amount",
+  "245": "Select Inscription",
+  "246": "Asset",
+  "247": "Chain",
+  "248": "Balance",
+  "249": "Confirm exchange",
+  "250": "Exchange Successfully",
+  "251": "Record",
+  "252": "Time",
+  "253": "Chain",
+  "254": "Name",
+  "255": "Amount",
+  "256": "Price (high to low)",
+  "257": "Price (low to high)",
+  "258": "Purchase Successfully",
+  "259": "Purchase failed",
+  "260": "Market",
+  "261": "My Assets",
+  "262": "Search by Project ID",
+  "263": "Unit price:",
+  "264": "Total price:",
+  "265": "All",
+  "266": "Listed",
+  "267": "Unlisted",
+  "268": "View details",
+  "269": "Inscription purchase",
+
+  "270": "Inscription name:",
+  "271": "Current owner:",
+  "272": "File type:",
+  "273": "Listing time:",
+  "274": "Unit price:",
+  "275": "Total price:",
+  "276": "Purchase",
+  "277": "Exchange failed",
+  "278": "From",
+  "279": "Select token",
+  "280": "To",
+  "281": "Exchange rate",
+  "282": "Price impact",
+  "283": "Minimum receive",
+  "284": "Liquidity",
+  "285": "Liquidity funds",
+  "286": "Add liquidity to receive LP tokens",
+  "287": "Add liquidity",
+  "288": "Your liquidity",
+  "289": "No liquidity found",
+  "290": "Select a token",
+  "291": "Token name, symbol, address",
+  "292": "Token name",
+  "293": "All",
+  "294": "Listed",
+  "295": "Unlisted",
+  "296": "Assets",
+  "297": "Protocol",
+  "298": "Owner",
+  "299": "Creation Hash",
+  "300": "Creation Time",
+  "301": "Block Height",
+  "302": "Inscription Assets",
+  "303": "Name",
+  "304": "Type",
+  "305": "Balance",
+  "306": "Text/plain text",
+  "307": "Please enter a valid address.",
+  "308": "Transfer failed.",
+  "309": "Cancel Successfully.",
+  "310": "Please enter a valid address.",
+  "311": "Transfer failed.",
+  "312": "Cancel Successfully.",
+  "313": "Cancel failed.",
+  "314": "Inscription Details",
+  "315": "Inscription Name:",
+  "316": "Current Owner:",
+  "317": "File Type:",
+  "318": "Protocol:",
+  "319": "Balance:",
+
+  "320": "List",
+  "321": "Transfer",
+  "322": "Listing Amount:",
+  "323": "Transaction history:",
+  "324": "Unit price:",
+  "325": "Price",
+  "326": "Listing time",
+  "327": "Cancel order",
+  "328": "Transfer Successfully.",
+  "329": "Are you sure you want to transfer this inscription to this address?",
+
+  "330": "Address:",
+  "331": "Enter address",
+  "332": "Quantity:",
+  "333": "Enter Amount",
+  "334": "Minimum listing quantity is 10,000",
+  "335": "Listing failed",
+  "336": "Project list",
+  "337": "Price (BNB)",
+  "338": "Payment chain",
+  "339": "Listing Amount",
+
+  "340": "List",
+  "341": "Listing Successfully",
+  "342": "Minting failed",
+  "343": "Time",
+  "344": "Address",
+  "345": "Quantity",
+  "346": "Hash",
+  "347": "Rank",
+  "348": "User address",
+  "349": "Percentage",
+
+  "350": "Deployer",
+  "351": "Mint Record",
+  "352": "Ranking",
+  "353": "Minted Amount",
+  "354": "Select the Amount of inscriptions to mint",
+  "355": "Pieces",
+  "356": "Claim",
+  "357": "Mint Successfully",
+  "358": "Inscription transferred to hash:",
+  "359": "Mapped token hash:",
+
+  "360": "Protocol",
+  "361": "Rune BitTower",
+
+  "362": "View Details",
+  "363": "Name :",
+  "364": "ID :",
+  "365": "Owner :",
+  "366": "Creation Time :",
+  "367": "Community Shareholder Rights",
+  "368": "Trading Fee Dividends",
+  "369": "Inscription Dividends",
+  "370": "Ranking Dividends",
+
+  "371": "Team Data",
+  "372": "View Details",
+  "373": "Community Name:",
+  "374": "Team Size:",
+  "375": "Team Performance:",
+  "376": "{{num}} Whitelist",
+  "377": "Node Shareholder Rights",
+  "378": "{{num}} People",
+  "379": "{{num}} Whitelist",
+
+  "380": "Community Shareholder",
+  "381": "Node Shareholder",
+
+  "382": "Benefits",
+  "383": "Hash Address:",
+  "384": "Dividend:",
+  "385": "Team Data",
+  "386": "Community Name:",
+  "387": "Team Members:",
+  "388": "Team Holdings:",
+  "389": "{{num}}",
+
+  "390": "Type",
+  "391": "Limited Edition",
+  "392": "Attributes",
+  "393": "{{num}} Pieces",
+  "394": "Exchange Dividend Trading Fee Privilege Card",
+
+  "395": "SAT Airdrop",
+  "396": "1.Trading Fee Dividends",
+  "397": "2.SAT Airdrop Rights",
+  "398": "3.Inscription Project Airdrops",
+
+  "399": "Please bind the target address to complete the registration.",
+  "400": "Asia Pacific",
+  "401": "Pan Pacific",
+  "402": "Advanced Shareholder",
+  "403": "Search by community ID",
+  "404": "Ecology",
+
+  "405": "Joint Construction",
+  "406": "Ecology",
+  "407": "Exploring a New Future",
+  "408": "The Ekta project is one that truly realizes the simultaneous operation of both on-chain and physical communities. EKTA has a system of smart contracts that allows token holders, traders, and yield farmers to participate in an Automated Market Maker (AMM) exchange to mine EKTA.",
+  "409": "CraftingFinance is a synthetic asset issuance protocol, decentralized contract trading exchange, and NFT fragmentation platform based on the Near smart contract chain. CraftingFinance is a pioneer in empowering financial applications within the NEAR ecosystem.",
+  "410": "AssetMantle is a multi-tenant NFT marketplace framework that enables creators and collectors to securely mint, own, and trade digital assets on its fast-finality blockchain.",
+  "411": "CUDOS is a Layer 2 oracle network, managed by smart contracts, connecting blockchain developers and services (including DeFi) to the global footprint of computing power on the Cudo platform.",
+  "412": "The Dimitra (DMTR) platform is a blockchain platform dedicated to democratizing the global agricultural technology space. Dimitra provides access to blockchain, machine learning, IoT sensors, and satellite technology through a mobile platform, helping farmers worldwide increase yields, reduce costs, and minimize risks.",
+  "413": "The world's first Web3 full-chain numerical rights game.",
+  "414": "Catizen is a cat-themed game that integrates GameFi, AI, and the metaverse, blending the charm of virtual pets with the innovation of blockchain technology and artificial intelligence to deliver a highly immersive interactive experience.",
+  "415": "RedFOX Labs is a blockchain-based technology company that identifies and builds validated unicorn business models for the emerging markets of Southeast Asia. RedFOX Labs creates innovative and scalable solutions to unlock the true market potential of the Komodo platform.",
+  "416": "Long-term validity, unlimited times",
+
+  "417": "Transferable",
+
+  "418": "BSC Address",
+
+  "419": "Connect Wallet",
+
+  "420": "Select Address",
+
+  "421": "Select Inscription",
+
+  "422": "Gas Fee",
+
+  "423": "Transaction",
+
+  "424": "Transfer Record",
+
+  "425": "Available Quantity",
+
+  "426": "Inscription Name",
+
+  "427": "Quantity",
+
+  "428": "Hash",
+
+  "429": "Status",
+
+  "430": "Confirmed",
+
+  "431": "Prompt",
+
+  "432": "Inscription Converted to Available Status",
+
+  "433": "1. Open UNISAT or OKX and enter the inscription page.",
+
+  "434": "2. Input the quantity of inscription to be inscribed.",
+
+  "435": "3. Successfully inscribed inscriptions will become available status.",
+
+  "436": "Return to Inscription Alliance",
+
+  "437": "BSC Address",
+
+  "438": "Bind PIN Code",
+
+  "439": "PIN Code",
+
+  "440": "Note: This address can only be bound once!",
+
+  "441": "Bind",
+
+  "442": "Transaction Successful",
+
+  "443": "Points",
+
+  "444": "Like",
+
+  "445": "Personal",
+
+  "446": "Community",
+
+  "447": "Team",
+
+  "448": "Name",
+
+  "449": "Address",
+
+  "450": "Note: Only the quantity of non-whitelisted participants minted will be counted towards the eligible list. Data from whitelisted participants minting will not be included. At the start of each new phase, the data from the current phase will be reset, and counting for the next phase will start from 0.",
+
+  "451": "Team Address",
+
+  "452": "Pending Claim",
+
+  "453": "Claimed",
+
+  "454": "Claiming",
+
+  "455": "Stake Failed",
+
+  "456": "Claim Failed",
+
+  "457": "Stake Dividends",
+
+  "458": "Stake",
+
+  "459": "Staked",
+
+  "460": "Record",
+
+  "461": "Stake Instructions",
+
+  "462": "1. Shareholders must stake a certain amount of BTIA to qualify for dividends.",
+
+  "463": "2. Dividends will be directly distributed into eligible shareholders' accounts.",
+
+  "464": "3. Staked BTIA will be released linearly according to a daily ratio until all staked BTIA has been released.",
+
+  "465": "This rule ensures shareholders' interests while encouraging long-term holding of BTIA, enhancing the project's stability and sustainable development.",
+
+  "466": "Current Identity",
+
+  "467": "Staked Quantity",
+
+  "468": "Stake Successful",
+
+  "469": "Release Record",
+
+  "470": "Remaining",
+
+  "471": "Released",
+
+  "472": "Status",
+
+  "473": "Action",
+
+  "474": "Claim",
+
+  "475": "Claimed",
+
+  "476": "Claim Successful",
+
+  "477": "Denim Address",
+
+  "478": "Time",
+
+  "479": "BTC Address",
+
+  "480": "Hash",
+
+  "481": "Token",
+
+  "482": "Bind BTC Wallet",
+
+  "483": "Remaining Bind Attempts",
+
+  "484": "Go Trade",
+
+  "485": "Binding Operation",
+
+  "486": "1. Users click on the bind BTC wallet above.",
+
+  "487": "2. Copy the randomly generated PIN code, click bind BTC wallet to enter the BTC BRIDGE page.",
+
+  "488": "3. Link the BRIDGE wallet and transfer the inscribed inscription to our platform.",
+
+  "489": " ( For instructions on engraving, please refer to the unisat documentation ) ",
+
+  "490": "Binding Instructions",
+
+  "491": "*A maximum of only 10 BTC addresses can be bound.",
+
+  "492": "*Each BTC address can only be bound to one BSC address.",
+
+  "493": "*Users bind the BTC wallet through the PIN code, transferring BTC assets cross-chain to the platform via BRIDGE, adding liquidity, achieving a more liquid and secure trading method.",
+
+  "494": "Binding Record",
+
+  "495": "Address",
+
+  "496": "Status",
+
+  "497": "Default Address",
+
+  "498": "Unbind",
+
+  "499": "Bind PIN Code",
+
+  "500": "PIN Code",
+
+  "501": "Note: This PIN code is used for binding the BTC wallet link, it is valid for 30 minutes, please keep it safe and do not disclose it to others.",
+
+  "502": "Bind BTC Address",
+
+  "503": "Binding Successful",
+
+  "504": "Change Default Address",
+
+  "505": "Are you sure you want to change the default address?",
+
+  "506": "Confirm",
+
+  "507": "SWAP Transaction",
+
+  "508": "Transfer Inscription",
+
+  "509": "Withdraw",
+
+  "510": "Amount",
+
+  "511": "All",
+
+  "512": "Address",
+
+  "513": "Address: e.g., bc1p...",
+
+  "514": "Remaining Amount",
+
+  "515": "Withdrawal Record",
+
+  "516": "Time",
+
+  "517": "User Address",
+
+  "518": "Inscription",
+
+  "519": "Amount",
+
+  "520": "Status",
+
+  "521": "Withdrawal Successful",
+
+  "522": "Connect Denim BOX",
+
+  "523": "Mint Inscription",
+
+  "524": "Mint Successful",
+
+  "525": "Input Amount",
+
+  "526": "Insufficient Mint Coupon",
+
+  "527": "Mint Process",
+
+  "528": "Do not close or refresh the page during the mint process.",
+
+  "529": "Close",
+  "530": "Minting Ended",
+  "531": "Shortlist-Phase {{num}}",
+  "532": "Community",
+
+  "533": "Team",
+  "534": "Search by Community Name",
+  "535": "Search by Team Address",
+  "536": "View Now",
+
+  "537": "The link to Denim BOX has expired",
+  "538": "Due to the difficulty adjustment in Mint, it is recommended to increase the gas fee.",
+
+  "539": "Inscription ID:",
+  "540": "Created:",
+  "541": "Genesis Transaction:",
+  "542": "Genesis BlockHeight:",
+  "543": "Deployer:",
+
+  "544": "My Mint",
+
+  "545": "Time",
+
+  "546": "Status",
+
+  "547": "Quantity",
+
+  "548": "Hash",
+
+  "550": "Add Gas Fee",
+
+  "551": "Initializing",
+
+  "552": "Connecting to box",
+
+  "553": "Box connected",
+
+  "554": "Minting",
+
+  "555": "Mint Successful",
+
+  "556": "Mint Failed",
+  "557": "Waiting for confirmation",
+  "558": "Showing the last 10k records",
+  "559": "Shortlist-Phase {{num}}",
+  "560": "Community Data",
+  "561": "Total Direct Referrals",
+  "562": "Direct Referral Address",
+  "563": "Direct Referral Record",
+  "564": "No",
+  "565": "Address",
+  "566": "{{num}} Items",
+  "567": "Whitelist Mint",
+  "568": "Non-Whitelist Mint",
+  "569": "Participation Address",
+
+  "570": "Team Data",
+  "571": "Performance of Area A",
+  "572": "Performance Ranking of Area B",
+  "573": "Rank",
+  "574": "Address",
+  "575": "Quantity",
+  "577": "Total Minted",
+  "578": "Holder",
+  "579": "Standard Node",
+  "580": "Whitelist",
+  "581": "Non-Whitelist",
+  "582": "Community Yesterday Mint",
+  "583": "Direct Referral Yesterday Mint",
+  "584": "Yesterday Mint",
+  "585": "Pieces",
+
+  "Not yet": "Not yet",
+  "Open soon": "Open soon",
+  "failed": "failed",
+  "Copied successfully": "Copied successfully",
+  "info": "info",
+  "Approve": "Approve",
+  "Please link wallet": "Please connect wallet",
+  "Received successfully": "Received successfully",
+  "Please bind the recommended address": "Please bind the recommended address",
+  "Confirm recommendation": "Confirm recommendation",
+  "Confirm": "Confirm",
+  "Binding successful": "Binding Successfully",
+  "Binding failed": "Binding failed",
+  "Superior address": "Superior address",
+  "Insufficient balance": "Insufficient balance"
+}

@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "CKTKingkong";
+  src: url("../../assets/font/CKTKingkong.ttf");
+}
+.ant-modal-wrap {
+}
+.successModal {
+  //   width: 651px !important;
+  font-family: "CKTKingkong";
+  user-select: none;
+
+  .ant-modal-content {
+    background-color: transparent;
+    box-shadow: none;
+    overflow: hidden;
+  }
+
+  .ant-modal-header {
+    display: none;
+  }
+
+  .ant-modal-close {
+    display: none;
+  }
+
+  .ant-modal-body {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 651px;
+    align-items: center;
+    // background-color: #00000006;
+    background-color: #00000006;
+
+    > img:nth-child(1) {
+      z-index: -1;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    > img:nth-child(2) {
+      width: 128px;
+      height: 128px;
+      margin-top: 202px;
+    }
+
+    > span {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      line-height: 32px;
+    }
+
+    > span:nth-child(3) {
+      margin: 6px 0 14px;
+    }
+
+    > div:nth-child(5) {
+      color: #000;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 50px;
+      line-height: 16px;
+      padding: 12px 53px;
+      align-items: center;
+      border-radius: 14px;
+      display: inline-flex;
+      justify-content: center;
+      box-shadow: 6px 10px 0px 0px #4a8e00;
+      background: linear-gradient(0deg, #95fa31 0.01%, #f6f022 99.99%);
+    }
+  }
+
+  .ant-modal-footer {
+    display: none;
+  }
+}

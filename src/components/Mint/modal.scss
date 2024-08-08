@@ -1,0 +1,308 @@
+@font-face {
+  font-family: "CKTKingkong";
+  src: url("../../assets/font/CKTKingkong.ttf");
+}
+
+.modalbox {
+  width: 63.3333rem !important;
+  font-family: "CKTKingkong";
+  user-select: none;
+
+  @media (max-width: 650px) {
+    max-width: calc(100vw - 14px) !important;
+    width: 100% !important;
+    margin: 0 1.458333rem !important;
+  }
+
+  .ant-modal-content {
+    background-color: transparent;
+  }
+
+  .ant-modal-header {
+    display: none;
+  }
+
+  .ant-modal-close {
+    display: none;
+  }
+
+  .ant-modal-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    // background: url("../../assets/image/Mint/modalBack.png");
+    width: 100%;
+
+    #back {
+      width: 100%;
+      height: 100%;
+
+      @media (max-width: 650px) {
+        height: auto;
+        aspect-ratio: 361/527;
+        height: 520px;
+      }
+    }
+
+    #close {
+      width: 2.5rem;
+      height: 2.5rem;
+      position: absolute;
+      right: 2.5rem;
+      top: 2.5rem;
+      cursor: pointer;
+
+      @media (max-width: 650px) {
+        width: 4.4rem;
+        height: 4.4rem;
+        top: 3rem;
+      }
+    }
+
+    > span,
+    > div {
+      position: absolute;
+      // left: 5.8333rem;
+      width: 100%;
+      padding: 0 5.8333rem;
+
+      // @media (max-width:650px) {
+      //     left: 14.583333rem;
+      // }
+    }
+
+    > span:nth-child(3) {
+      padding: 0;
+      width: auto;
+      left: 8.3333rem;
+      top: 4.1667rem;
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      background: linear-gradient(111deg, #f6f022 0%, #95fa31 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      @media (max-width: 650px) {
+        font-size: 3.75rem;
+        line-height: 3.75rem;
+        top: 8rem;
+        left: 11rem;
+      }
+
+      @media (max-width: 375px) {
+        top: 7rem;
+        left: 9rem;
+      }
+
+      @media (max-width: 320px) {
+        top: 5.8rem;
+        left: 7.5rem;
+      }
+    }
+
+    > div:nth-child(4) {
+      top: 10.5833rem;
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: 650px) {
+        top: 17.1875rem;
+      }
+
+      @media (max-width: 320px) {
+        top: 13rem;
+      }
+
+      div {
+        color: rgba(254, 254, 254, 0.8);
+        font-size: 1.6667rem;
+        line-height: 1.6667rem;
+        @media (max-width: 650px) {
+          font-size: 2.91666rem;
+          line-height: 4.375rem;
+        }
+
+        @media (max-width: 320px) {
+          line-height: 4rem;
+        }
+      }
+
+      > div:nth-child(1) {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: 650px) {
+          flex-wrap: wrap;
+        }
+
+        > div:nth-child(1),
+        > div:nth-child(2) {
+          width: 100%;
+        }
+      }
+
+      > div:nth-child(2) {
+        display: flex;
+        margin-top: 1.6667rem;
+        justify-content: space-between;
+      }
+    }
+
+    > div:nth-child(5) {
+      left: 0;
+      width: 100%;
+      height: 1px;
+      flex-shrink: 0;
+      opacity: 0.6;
+      padding: 0 2.5rem;
+      top: 18.9167rem;
+      background: linear-gradient(
+        90deg,
+        rgba(149, 250, 49, 0) 1.07%,
+        #95fa31 53.32%,
+        rgba(149, 250, 49, 0) 100.4%
+      );
+
+      @media (max-width: 650px) {
+        top: 36.270833rem;
+      }
+
+      @media (max-width: 320px) {
+        top: 35rem;
+      }
+    }
+
+    > div:nth-child(6) {
+      // width: 51.6667rem;
+      top: 21.5rem;
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: 650px) {
+        top: 42.8125rem;
+      }
+
+      @media (max-width: 320px) {
+        top: 38rem;
+      }
+
+      div {
+        color: #fefefe;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+
+        @media (max-width: 650px) {
+          font-size: 2.5rem;
+          line-height: 3.75rem;
+        }
+      }
+
+      .includeInput {
+        margin-bottom: 0;
+        height: 6.75rem;
+        padding: 2.3333rem 2.5rem;
+        flex-shrink: 0;
+        border-radius: 3.3333rem;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: -0.25rem -0.25rem 0.4167rem 0rem rgba(255, 255, 255, 0.2) inset,
+          0.4167rem 0.4167rem 0.8333rem 0rem #000 inset;
+        backdrop-filter: blur(2.375rem);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width: 650px) {
+          height: 8.33333rem;
+          border-radius: 3.91145rem;
+        }
+
+        @media (max-width: 650px) {
+          // height: 7rem;
+          border-radius: 3.51145rem;
+        }
+
+        .ant-input {
+          flex: 1;
+          padding: 0;
+          color: #fefefe;
+          font-size: 1.6667rem;
+          // line-height: 1.6667rem;
+          border: none;
+          background-color: transparent;
+        }
+
+        .ant-input-focused,
+        .ant-input:focus {
+          box-shadow: none;
+        }
+
+        > div {
+          margin-bottom: 0;
+          cursor: pointer;
+        }
+        @media (max-width: 650px) {
+          .ant-input {
+            font-size: 2.5rem;
+          }
+        }
+      }
+
+      > img {
+        width: 3.3333rem;
+        height: 3.3333rem;
+        margin: 1.8333rem auto;
+
+        @media (max-width: 650px) {
+          margin: 4.16666rem auto 2.08333rem;
+        }
+
+        @media (max-width: 650px) {
+          margin: 3rem auto 1.5rem;
+        }
+      }
+
+      > div:last-child {
+        margin: 4.1667rem auto 0;
+
+        .transferBtn {
+          white-space: nowrap;
+          color: #000;
+          font-size: 1.5rem;
+          line-height: 1.5rem;
+          display: inline-flex;
+          padding: 1.25rem 13.5833rem;
+          justify-content: center;
+          align-items: center;
+          border-radius: 1.1667rem;
+          background: linear-gradient(0deg, #95fa31 0.01%, #f6f022 99.99%);
+          box-shadow: 0.5rem 0.8333rem 0rem 0rem #4a8e00;
+          max-width: fit-content;
+          cursor: pointer;
+
+          @media (max-width: 650px) {
+            margin: 6.25rem auto 0;
+            font-size: 2.91666rem;
+            line-height: 4.375rem;
+            padding: 1.355rem 20rem;
+            box-shadow: 0.6rem 1.19rem 0rem 0rem #4a8e00;
+          }
+
+          @media (max-width: 320px) {
+            margin: 5.5rem auto 0;
+            font-size: 2.5rem;
+            line-height: 4rem;
+            padding: 1rem 18rem;
+            box-shadow: 0.6rem 1.19rem 0rem 0rem #4a8e00;
+          }
+        }
+      }
+    }
+  }
+
+  .ant-modal-footer {
+    display: none;
+  }
+}
